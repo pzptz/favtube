@@ -1,0 +1,40 @@
+CS193X Final Project Milestone
+==============================
+
+Project Title: YouTube Analytics App
+Your Name: Peter Li
+Your SUNetID: peterjl
+
+Overview
+--------
+I have started working on the front end of the app - mainly editing CSS elements. My project will be based on the template of the generic social
+media app in assign3, where I will be editing elements that my project will use instead of the provided code, such as the post form and following
+list. Admittedly I am a little behind schedule as a lot of my other final projects/papers are taking more time than expected, but I expect to finish
+the frontend fairly soon (hopefully this weekend) and starting to implement my local API/backend that incorporates login with Google. I am a little
+stuck on the login with Google part (hence I didn't include in the code here), and I will be visiting office hours to try to get it resolved!
+
+Project Changes
+---------------
+I'm planning to change the way I use the YouTube API in order to fit the MongoDB local API requirement, while also incorporating a login with Google
+authentication system instead of my own login credentials.
+
+Implementation Details
+----------------------
+I implemented the header of the page where the top left contains a button in the form of YouTube's logo that redirects to YouTube's website on click.
+I also replaced assign3's login form with a button that will soon redirect to Google's login page. After getting that sorted, I will implement visual
+elements using resources such as d3 and button functionality through event handlers that either complete a certain functionality on the web app or
+redirect to a YouTube video. I will update my progress on this in office hours and/or when I submit an updated version of the milestone.
+
+External libraries and code
+---------------------------
+I'm planning to use Google's user authentication system as a part of the login process of my app. I will also use data from YouTube's API on the user's
+video watch history and incorportate the data into my local API.
+
+Collaboration and resources
+---------------------------
+I have consulted code (provided by the class and written by myself) of assign3 and YouTube's API documentation. I will be consulting additional resources
+including office hours, the d3 external JS library, and potentially videos on incorporating web API data onto a local API.
+
+Anything else?
+--------------
+I may upload an updated version of the milestone a few days from now, would that be okay?

@@ -1,0 +1,190 @@
+@import "./global.css";
+
+/***** Generic Containers ******/
+
+.widthContainer, .heightContainer {
+  flex-grow: 1;
+}
+
+.widthContainer {
+  max-width: 1280px;
+}
+
+.heightContainer {
+  min-height: 125px;
+  overflow-y: auto;
+}
+
+.paper {
+  padding: 1rem;
+  border-radius: 0.6rem;
+}
+
+/***** Header and Footer *****/
+
+header, footer {
+  display: flex;
+  justify-content: center;
+}
+
+header .widthContainer, .appTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  border-bottom: 1px solid #ccd6dd;
+  margin-bottom: 1.5rem;
+}
+
+footer {
+  border-top: 1px solid #ccd6dd;
+  margin-top: 1.5rem;
+}
+
+#titleText {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.65rem;
+  margin: 0;
+}
+
+#redirect {
+  display: flex;
+  align-items: center;
+  background: none;
+  gap: 0.5rem;
+}
+
+#youtube {
+  width: 2.8rem;
+}
+
+#headerButtons {
+  display: flex;
+  gap: 0.6rem;
+  height: 75%;
+}
+
+#footerText {
+  margin: 1rem;
+}
+
+/***** Welcome *****/
+
+#welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#welcome.hidden {
+  display: none;
+}
+
+#welcome h1, #searchTitle, #favTitle {
+  font-size: 1.8em;
+  font-weight: 300 bold;
+}
+
+#welcome .paper {
+  text-align: center;
+  width: 50%;
+}
+
+/***** Main *****/
+
+#main {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem 0;
+  animation: fadein 1s;
+}
+
+#main.hidden, #video.template {
+  display: none;
+}
+
+#main .widthContainer {
+  display: flex;
+}
+
+/***** Search Bar and Favorites Bar *****/
+
+#feedPanel {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+#searchBar, #favorites {
+  display: flex;
+  flex-direction: column;
+  padding: 0 5rem;
+}
+
+#searchForm, #favForm, #searchTitle, #favTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 1rem;
+  gap: 0.5rem;
+  animation: fadein 0.5s;
+}
+
+#searchForm, #favForm {
+  padding-top: 0;
+}
+
+#favorites {
+  margin-top: 2rem;
+}
+
+#searchInput, #favInput {
+  width: 65%;
+}
+
+#searchButton, #favButton {
+  height: 100%;
+}
+
+/***** Video *****/
+
+#video {
+  display: flex;
+  position: relative;
+  padding-bottom: 1.5rem;
+}
+
+.buttons {
+  position: absolute;
+  top: 0.7rem;
+  right: 0;
+}
+
+.thumbnail {
+  padding-top: 0.5rem;
+  padding-right: 1rem;
+  width: 30%;
+}
+
+.delete, .delete:hover {
+  background: none;
+}
+
+#heart {
+  width: 2rem;
+}
+
+/***** Animations *****/
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

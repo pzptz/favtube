@@ -1,0 +1,20 @@
+body, #searchInput, #favInput {
+  background-color: #1f1d1d;
+}
+
+.paper {
+  box-shadow: 0px 0px 0px 0px;
+}
+
+header, footer, .paper {
+  background-color: #2b2e2e;
+  border-color: black;
+}
+
+.paper, h1, h2, h5, strong, #searchInput, #favInput {
+  color: white;
+}
+
+a {
+  color: cyan;
+}

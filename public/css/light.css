@@ -1,0 +1,20 @@
+body {
+  background-color: #fafafa;
+}
+
+#searchInput, #favInput {
+  background-color: #e6ecf0;
+}
+  
+.paper {
+  box-shadow: 1px 1px 1px 1px lightgray;
+}
+
+header, footer, .paper {
+  background-color: white;
+  border-color: #ccd6dd;
+}
+
+.paper, h1, h2, h5, strong, #searchInput, #favInput {
+  color: black;
+}
