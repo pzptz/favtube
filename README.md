@@ -8,8 +8,7 @@ FavTube is a web app that can be used as a place to search and bookmark YouTube 
 
 ## Running
 
-My project uses the YouTube API, which functions on a specific Client ID and API key tied to my Google account. (This shouldn't be an issue, but just in case!)
-There also seems to be a quota of how many YouTube API requests (from using the YouTube search bar), so the YouTube API may return 403 error after an excessive
+My project uses the YouTube API, which functions on a specific Client ID and API key tied to each Google account. Please replace the placeholder Client ID and API key values in `public/js/app.js` when you run the app locally. Note: there seems to be a quota of how many YouTube API requests (from using the YouTube search bar), so the YouTube API may return 403 error after an excessive
 number of searches.
 
 ## Features
